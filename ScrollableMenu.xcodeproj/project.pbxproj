@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511AAAE828C9619C009279A4 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511AAAE728C9619C009279A4 /* TrackCollectionViewCell.swift */; };
+		511AAAEA28C992EF009279A4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511AAAE928C992EE009279A4 /* Data.swift */; };
 		51D8FD5728C597A20032A24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD5628C597A20032A24D /* AppDelegate.swift */; };
 		51D8FD5928C597A20032A24D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD5828C597A20032A24D /* SceneDelegate.swift */; };
 		51D8FD5B28C597A20032A24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD5A28C597A20032A24D /* ViewController.swift */; };
@@ -16,6 +18,14 @@
 		51D8FD6E28C597A50032A24D /* ScrollableMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD6D28C597A50032A24D /* ScrollableMenuTests.swift */; };
 		51D8FD7828C597A50032A24D /* ScrollableMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD7728C597A50032A24D /* ScrollableMenuUITests.swift */; };
 		51D8FD7A28C597A50032A24D /* ScrollableMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD7928C597A50032A24D /* ScrollableMenuUITestsLaunchTests.swift */; };
+		51D8FD8728C5998C0032A24D /* TitleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8FD8628C5998C0032A24D /* TitleBarController.swift */; };
+		51E801E528C82586003A517B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E801E428C82586003A517B /* HomeController.swift */; };
+		51E801E728C827BE003A517B /* Menubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E801E628C827BE003A517B /* Menubar.swift */; };
+		51E801E928C85BAE003A517B /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E801E828C85BAE003A517B /* PlaylistCell.swift */; };
+		51E8BD7528C5A1A100971489 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8BD7428C5A1A000971489 /* MusicViewController.swift */; };
+		51E8BD7728C5A1AB00971489 /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8BD7628C5A1AB00971489 /* PodcastViewController.swift */; };
+		51E8BD7928C5C72000971489 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8BD7828C5C72000971489 /* Container.swift */; };
+		51E8BD7B28C7398D00971489 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8BD7A28C7398D00971489 /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		511AAAE728C9619C009279A4 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		511AAAE928C992EE009279A4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		51D8FD5328C597A20032A24D /* ScrollableMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D8FD5628C597A20032A24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D8FD5828C597A20032A24D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		51D8FD7328C597A50032A24D /* ScrollableMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D8FD7728C597A50032A24D /* ScrollableMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMenuUITests.swift; sourceTree = "<group>"; };
 		51D8FD7928C597A50032A24D /* ScrollableMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51D8FD8628C5998C0032A24D /* TitleBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarController.swift; sourceTree = "<group>"; };
+		51E801E428C82586003A517B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		51E801E628C827BE003A517B /* Menubar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menubar.swift; sourceTree = "<group>"; };
+		51E801E828C85BAE003A517B /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		51E8BD7428C5A1A000971489 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		51E8BD7628C5A1AB00971489 /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		51E8BD7828C5C72000971489 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		51E8BD7A28C7398D00971489 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,17 @@
 		51D8FD5528C597A20032A24D /* ScrollableMenu */ = {
 			isa = PBXGroup;
 			children = (
-				51D8FD5628C597A20032A24D /* AppDelegate.swift */,
-				51D8FD5828C597A20032A24D /* SceneDelegate.swift */,
-				51D8FD5A28C597A20032A24D /* ViewController.swift */,
-				51D8FD5C28C597A20032A24D /* Main.storyboard */,
-				51D8FD5F28C597A50032A24D /* Assets.xcassets */,
-				51D8FD6128C597A50032A24D /* LaunchScreen.storyboard */,
-				51D8FD6428C597A50032A24D /* Info.plist */,
+				51D8FD8828C59BC00032A24D /* File */,
+				51D8FD8628C5998C0032A24D /* TitleBarController.swift */,
+				51E8BD7428C5A1A000971489 /* MusicViewController.swift */,
+				51E8BD7628C5A1AB00971489 /* PodcastViewController.swift */,
+				51E8BD7828C5C72000971489 /* Container.swift */,
+				51E8BD7A28C7398D00971489 /* Factories.swift */,
+				51E801E428C82586003A517B /* HomeController.swift */,
+				51E801E628C827BE003A517B /* Menubar.swift */,
+				51E801E828C85BAE003A517B /* PlaylistCell.swift */,
+				511AAAE728C9619C009279A4 /* TrackCollectionViewCell.swift */,
+				511AAAE928C992EE009279A4 /* Data.swift */,
 			);
 			path = ScrollableMenu;
 			sourceTree = "<group>";
@@ -125,6 +149,20 @@
 				51D8FD7928C597A50032A24D /* ScrollableMenuUITestsLaunchTests.swift */,
 			);
 			path = ScrollableMenuUITests;
+			sourceTree = "<group>";
+		};
+		51D8FD8828C59BC00032A24D /* File */ = {
+			isa = PBXGroup;
+			children = (
+				51D8FD5628C597A20032A24D /* AppDelegate.swift */,
+				51D8FD5828C597A20032A24D /* SceneDelegate.swift */,
+				51D8FD5A28C597A20032A24D /* ViewController.swift */,
+				51D8FD5C28C597A20032A24D /* Main.storyboard */,
+				51D8FD5F28C597A50032A24D /* Assets.xcassets */,
+				51D8FD6128C597A50032A24D /* LaunchScreen.storyboard */,
+				51D8FD6428C597A50032A24D /* Info.plist */,
+			);
+			name = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +297,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D8FD5B28C597A20032A24D /* ViewController.swift in Sources */,
+				51E8BD7528C5A1A100971489 /* MusicViewController.swift in Sources */,
+				51E8BD7B28C7398D00971489 /* Factories.swift in Sources */,
 				51D8FD5728C597A20032A24D /* AppDelegate.swift in Sources */,
+				511AAAE828C9619C009279A4 /* TrackCollectionViewCell.swift in Sources */,
+				51E801E728C827BE003A517B /* Menubar.swift in Sources */,
+				51E801E928C85BAE003A517B /* PlaylistCell.swift in Sources */,
+				51E8BD7728C5A1AB00971489 /* PodcastViewController.swift in Sources */,
+				511AAAEA28C992EF009279A4 /* Data.swift in Sources */,
+				51E801E528C82586003A517B /* HomeController.swift in Sources */,
+				51E8BD7928C5C72000971489 /* Container.swift in Sources */,
+				51D8FD8728C5998C0032A24D /* TitleBarController.swift in Sources */,
 				51D8FD5928C597A20032A24D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
